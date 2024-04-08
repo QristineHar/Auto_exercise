@@ -31,6 +31,10 @@ export default class BasePage {
     await this.body.press('ArrowDown');
   }
 
+  async arrowUp(){
+    await this.body.press('ArrowUp');
+  }
+
 
   // Scrolling
 }
